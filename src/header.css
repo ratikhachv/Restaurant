@@ -1,0 +1,19 @@
+header{
+    width: 100%;
+    padding: 3%;
+    background-color: magenta;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+}
+header ul{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+.cart-icon{
+    width: 30px;
+    height: 15px;
+    display: flex;
+}

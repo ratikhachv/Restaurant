@@ -1,0 +1,22 @@
+.detail{
+    width: 100%;
+    height: 700px;
+    display: flex;
+}
+.detail-img{
+    width: 50%;
+}
+.detail-img img{
+    width: 100%;
+    height: 700px;
+}
+.detail-info{
+    background-color: yellowgreen;
+    color: whitesmoke;
+    font: italic;
+    font-size: larger;
+    width: 50%;
+}
+.detail-info p{
+    margin-top: 1em;
+}

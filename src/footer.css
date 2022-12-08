@@ -1,0 +1,11 @@
+footer img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background-color: magenta;
+}
