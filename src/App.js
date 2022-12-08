@@ -42,12 +42,12 @@ function App() {
     <>
     <Context.Provider value={{data, selectProducts, cartItemsNum, countCartItems}}>
     <Routes>
-      <Route path='/' element={<Header/>}>
+      <Route path='/Restaurant' element={<Header/>}>
         <Route index element={<Slider/>} />
-        <Route path='/menu' element={<Menu/>}/>
-        <Route path="/menu/:id" element={<Detail/>} />
-        <Route path='/contact-us' element={<ContactUs/>}/>
-        <Route path='/cart' element={<Cart/>}/>
+        <Route path='/Restaurant/menu' element={<Menu/>}/>
+        <Route path="/Restaurant/menu/:id" element={<Detail/>} />
+        <Route path='/Restaurant/contact-us' element={<ContactUs/>}/>
+        <Route path='/Restaurant/cart' element={<Cart/>}/>
       </Route>
     </Routes>
     </Context.Provider>

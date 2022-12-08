@@ -1,6 +1,5 @@
 import React, { useContext, useEffect, useState } from 'react'
 import { Context } from './Context'
-import {NavLink , Outlet} from 'react-router-dom'
 import "./slider.css"
 
 export default function Slider() {

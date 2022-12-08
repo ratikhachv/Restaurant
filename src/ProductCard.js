@@ -16,7 +16,7 @@ export default function ProductCard(props) {
             <p className="name">{props.name}</p>
             <div>
                 <p className='price'>{props.price}$</p>
-                <button onClick={()=>{navigate(`/menu/${props.name}`)}}>Details</button>
+                <button onClick={()=>{navigate(`/Restaurant/menu/${props.name}`)}}>Details</button>
             </div>
         </div>
     </div>

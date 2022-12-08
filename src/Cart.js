@@ -18,9 +18,6 @@ export default function Cart() {
         }
         total()
     },)
-    
-   
-
   return (
     <>
     <div className="cart">

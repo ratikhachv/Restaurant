@@ -12,22 +12,22 @@ export default function Header() {
         <nav>
             <ul>
                 <li>
-                  <NavLink to="/">
+                  <NavLink to="/Restaurant">
                     Home
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to='/menu'>
+                  <NavLink to='/Restaurant/menu'>
                     Menu
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to={'/contact-us'}>
+                  <NavLink to={'/Restaurant/contact-us'}>
                     Contact Us
                   </NavLink>
                 </li>
             </ul>
-            <NavLink to={'/cart'}>
+            <NavLink to={'/Restaurant/cart'}>
             <div className="cart-icon">
               <img src={cartIcon} alt="" />
               <p>{context.cartItemsNum}</p>
